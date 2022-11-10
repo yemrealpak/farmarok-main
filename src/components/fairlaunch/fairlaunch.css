@@ -1,0 +1,218 @@
+@font-face {
+    font-family: exFont;
+    src: url(../../assets/webfontkit-20221020-130632/lexend-regular-webfont.woff);
+  }
+.containerfairlaunch{
+    font-family: 'exFont';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #070707;
+}
+
+.tablewrapperfairlaunch {
+    font-style: normal;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    gap: 5rem;
+    width: 100%;
+    max-width:max-content;
+    padding: 2rem;
+    
+}
+
+.tablewrapperfairlaunchone{
+    flex-direction: row;
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    align-items: left;
+}
+
+.tablewrapperfairlaunchonet{
+    flex-direction: row;
+    display: flex;
+   
+    justify-content: left;
+    align-items: left;
+}
+
+.backgroungfairlaunch{
+    display: flex;
+    background: linear-gradient(160deg, #FE0000 0%, #360940 100%);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    max-width: 50%;
+}
+
+.tablefairlaunch{
+    font-style: normal;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1rem;  
+    text-indent: 2rem;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #151515;
+    padding: 3rem 2rem;
+    
+    
+    
+   
+   /* (135deg, #FE0000 0%, #360940 100%);*/
+    
+}
+
+.txtnump{
+    font-size: 1rem;
+}
+
+.textwrapper{
+    font-style: normal;
+    
+/* or 138% */
+
+
+letter-spacing: 0.72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    gap: 1rem;
+    width: 100%;
+    max-width: 75%;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.textcenterwhitelist{
+    color: red;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+
+.btnfairlaunch{
+    margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0.8rem 2rem;
+
+border-color: #07070700;
+background: #630000;
+border-radius: 12px;
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+
+/* identical to box height, or 143% */
+width: 14rem;
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+
+.textcenterwhitelistspan{
+    font-size: 1.4rem;
+}
+.btnfairlaunchaaa{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    
+    border-color: #07070700;
+    background: #630000;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    
+    /* identical to box height, or 143% */
+    width: 100%;
+   max-width: 30% !important;
+    text-align: center;
+    
+    /* white */
+    
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1100px) {
+    .tablewrapperfairlaunch{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    .btnfairlaunchaaa{
+        max-width: 100% !important;
+    }
+
+    .tablefairlaunch{
+        font-size: 1rem;
+        text-indent: 0px;
+        width: auto;
+    }
+
+    .textcenterwhitelistspan{
+        font-size: 0.8rem;
+
+        line-height: 2rem;
+    }
+  
+    .textcenterwhitelist{
+        font-size: 1.4rem;
+    }
+    .tablewrapperfairlaunchone{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tablewrapperfairlaunchonet{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .backgroungfairlaunch{
+        
+        max-width: 90vw;
+    }
+  }

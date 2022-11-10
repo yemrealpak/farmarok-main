@@ -1,0 +1,272 @@
+@font-face {
+    font-family: exFont;
+    src: url(../../assets/webfontkit-20221020-130632/lexend-regular-webfont.woff);
+  }
+.containertokenomics{
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-family: 'exFont';
+    gap: 2rem;
+    padding: 2rem 0rem;
+    background-color: #070707;
+
+    
+    
+}
+.astyle{
+    text-decoration: none;
+}
+
+.contracttext{
+    border-radius: 5px 5px 5px;
+    padding: 5px;
+    border: 2px solid #630000;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+
+
+
+.btnfairlaunch{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    
+    border-color: #07070700;
+    background: #630000;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    
+    /* identical to box height, or 143% */
+    width: 100%;
+   max-width: 50% !important;
+    text-align: center;
+    
+    /* white */
+    
+    color: #FFFFFF;
+}
+.btnfairlaunch:hover { transform: scale(1.1); }
+
+
+.btnfairlauncha{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    
+    border-color: #07070700;
+    background: #630000;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    
+    /* identical to box height, or 143% */
+    width: 100%;
+   max-width: 50% !important;
+    text-align: center;
+    
+    /* white */
+    
+    color: #FFFFFF;
+}
+.btnfairlauncha:hover { transform: scale(1.1); }
+
+.htokn{
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: white;
+    
+}
+
+.htoknnn{
+    letter-spacing: 0.1rem;
+    text-align: left;
+    font-style: normal;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.htoknn{
+    text-align: left;
+
+    font-size: 1.6rem;
+    font-style: normal;
+    
+    color: red;
+}
+
+.htoknnnn{
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    
+    color: white;
+    font-size: 2.0rem;
+}
+.htoknnnnn{
+        
+    line-height: 2rem;
+   
+    color: white;
+    font-size: 1.2rem;
+}
+.tkntxt{
+    
+}
+
+.wrappertokenomics{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    background-color: #070707;
+    
+    font-style: normal;
+    font-weight: 500;
+ 
+    line-height: 3rem;
+    gap: 5rem;
+    
+
+}
+
+.containerleft {
+    font-style: normal;
+    font-weight: 500;
+   
+    line-height: 3rem;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+    
+    text-align: left;
+    
+    gap: 1rem;
+    
+    
+    width: 50%;
+    height: 100%;
+    
+}
+
+.containerrighttt {
+    
+   
+   
+    line-height: 1rem;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+    
+    margin-left: 1rem;
+    gap: 0rem;
+    
+    
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+  
+
+.iconcontract{
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    .contracttext{
+        margin-left: 0.5rem;
+       text-align: center;
+        font-size: 0.63rem;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    .btnfairlaunch{
+        max-width: 100% !important;
+
+    }
+    .btnfairlauncha{
+        max-width: 100% !important;
+        font-size: 0.6rem;
+    }
+    .wrappertokenomics{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .htokn{
+        
+        line-height: 1.2rem;
+        font-style: normal;
+        color: white;
+        font-size: 0.8rem;
+    }
+    .htoknnnn{
+        
+        line-height: 1.4rem;
+        font-style: normal;
+        color: white;
+        font-size: 1.6rem;
+    }
+    .htoknnnnn{
+       
+        line-height: 1.5rem;
+        font-style: normal;
+        color: white;
+        font-size: 1rem;
+    }
+    .htoknnn{
+        font-style: normal;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .htoknn{
+        line-height: 1.6rem;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: red;
+    }
+
+    .containerrighttt{
+        line-height: 1.6rem;
+        justify-content: center;
+        
+        
+    }
+    .containerright {
+    
+        
+        max-width: 70%;
+        
+        
+    }
+  }
+
+
+ 

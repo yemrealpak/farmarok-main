@@ -1,0 +1,109 @@
+@font-face {
+  font-family: exFont;
+  src: url(../../assets/webfontkit-20221020-130632/lexend-regular-webfont.woff);
+}
+.containerfooter{
+ height: 10rem;
+  font-family: "exFont";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.spanlfooter{
+  color: #ffffff;
+  font-size: 1.7rem;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.spanfooter{
+  color: #ABADC6;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.wrapperfooter{
+  
+  width: 100%;
+  max-width: 75%;
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  
+}
+
+.logowrapperfooter{
+  flex: 0 25%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logofooter{
+
+  margin: 0rem 0.5rem;
+}
+
+.menuwrapperfooter{
+  display: flex;
+  
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+.menutxtfooter {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnmenufooter {
+  background-color: #630000;
+  border-radius: 10px;
+  border-width: 0ch;
+  width: auto;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  color: white;
+}
+
+.iconfooter{
+  color: white;
+  font-size: 1rem;
+  margin: 0rem 0.5rem;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .menuwrapperfooter{
+    
+      flex-direction: column-reverse;
+  }
+  .wrapperfooter{
+    gap:1.5rem;
+    flex-direction: column;
+}
+
+.containerfooter{
+ 
+  padding: 3rem 1rem;
+  height: auto;
+}
+}

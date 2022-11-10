@@ -1,0 +1,223 @@
+@font-face {
+    font-family: exFont;
+    src: url(../../assets/webfontkit-20221020-130632/lexend-regular-webfont.woff);
+  }
+
+.containerhero{
+    background-image: url(../../assets/herobg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "exFont";
+    font-style: normal;
+    flex-direction: column;
+    
+    
+    gap: 1rem;
+    
+}
+
+
+.containerheroo{
+    max-width: 90%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.logohero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    height: 100%;
+    margin-top: 5%;
+    gap: 0;
+    
+}
+
+.logoh {
+    width: 7rem;
+    margin-bottom: -2%;
+}
+
+.hhero {
+background: linear-gradient(135deg, #FE0000 0%, #360940 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+font-weight: 700;
+font-size: 6.6rem;
+
+
+letter-spacing: 0.02em;
+}
+
+.h1hero{
+   
+font-weight: 700;
+font-size: 6rem;
+
+/* identical to box height */
+margin-top: -1%;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.spanhero{
+   
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 1rem;
+/* identical to box height, or 206% */
+
+text-align: center;
+letter-spacing: 0.72px;
+
+color: #FFFFFF;
+}
+.spanherot{
+   
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    /* identical to box height, or 206% */
+    
+    text-align: center;
+    letter-spacing: 0.72px;
+    
+    color: #FFFFFF;
+}
+
+.btnhero{
+    text-decoration: none;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1rem 1rem;
+
+background: #630000;
+border-radius: 12px;
+border-color: #36094000;
+
+font-weight: 300;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+.btnheroa{
+    text-decoration: none;
+ 
+}
+.btnheroa:hover { transform: scale(1.1); }
+.boxherobutton{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    color: white;
+    gap: 2rem;
+    margin: 2rem 2rem;
+}
+
+.btnherotwo{
+    border-color: #36094000;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1rem 1rem;
+
+
+font-weight: 3600;
+font-size: 20px;
+line-height: 20px;
+
+
+text-align: center;
+
+
+color: #FFFFFF;
+
+
+background: #424867;
+border-radius: 12px;
+}
+
+@media only screen and (min-width: 1100px) {
+    .spanherot{
+        display: none;
+    }
+  
+}
+
+@media only screen and (max-width: 1100px) {
+    .hhero{
+        max-width: 85%;
+        font-size:3rem;
+    }
+    .h1hero{
+        max-width: 80%;
+        font-size: 2.7rem;
+    }
+    .spanherot{
+        max-width: 80%;
+        font-size: 0.95rem;
+    }
+    .boxherobutton{
+        gap: 1rem;
+        flex-direction: row;
+    }
+    .btnherotwo{
+        font-size: 1rem;
+    }
+    
+    .btnhero{
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .containerhero{
+        background-size: 250% 80%; 
+        background-position: bottom;
+    }
+    
+    .spanhero{
+        display: none;
+    }
+    
+    .btnherotwo{
+        padding: 0.8rem 1rem;
+    }
+    .btnhero{
+        text-decoration: none;
+        padding: 0.8rem 1rem;
+    }
+
+    .logoh {
+        width: 4rem;
+        
+    }
+  }

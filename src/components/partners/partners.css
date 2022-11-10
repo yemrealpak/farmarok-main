@@ -1,0 +1,38 @@
+@font-face {
+    font-family: exFont;
+    src: url(../../assets/webfontkit-20221020-130632/lexend-regular-webfont.woff);
+  }
+.containerpartners{
+    font-family: "exFont";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-color: #070707;
+    text-align: center;
+    color: white;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.containerpartnerico{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    background-color: #070707;
+    text-align: center;
+    color: white;
+    gap: 5rem;
+    margin: 3rem 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerpartnerico{
+        flex-direction: column;
+    }
+  
+  }
